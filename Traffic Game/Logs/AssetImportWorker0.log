@@ -1,0 +1,555 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.26f1 (7298b473bc1a) revision 7510196'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'en' Physical Memory: 8074 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Users\ncjac\Documents\Unity Workspace\2020.3.26f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/ncjac/Documents/GitHub/Traffic-Game/Traffic Game
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+65031
+Successfully changed project path to: C:/Users/ncjac/Documents/GitHub/Traffic-Game/Traffic Game
+C:/Users/ncjac/Documents/GitHub/Traffic-Game/Traffic Game
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 177.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.26f1 (7298b473bc1a)
+[Subsystems] Discovering subsystems at path C:/Users/ncjac/Documents/Unity Workspace/2020.3.26f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/ncjac/Documents/GitHub/Traffic-Game/Traffic Game/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c8d)
+    Vendor:   
+    VRAM:     1979 MB
+    Driver:   30.0.15.1179
+Initialize mono
+Mono path[0] = 'C:/Users/ncjac/Documents/Unity Workspace/2020.3.26f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Users/ncjac/Documents/Unity Workspace/2020.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Users/ncjac/Documents/Unity Workspace/2020.3.26f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56280
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Users/ncjac/Documents/Unity Workspace/2020.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004145 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 53.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.685 seconds
+Domain Reload Profiling:
+	ReloadAssembly (685ms)
+		BeginReloadAssembly (77ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (517ms)
+			LoadAssemblies (75ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (173ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (193ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (54ms)
+				BeforeProcessingInitializeOnLoad (10ms)
+				ProcessInitializeOnLoadAttributes (91ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.550180 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 53.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.517 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2518ms)
+		BeginReloadAssembly (153ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (2290ms)
+			LoadAssemblies (1348ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (361ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (398ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (54ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (225ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2305 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.5 MB.
+System memory in use after: 99.7 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2738.
+Total: 5.381700 ms (FindLiveObjects: 0.213000 ms CreateObjectMapping: 0.116800 ms MarkObjects: 4.968200 ms  DeleteObjects: 0.082000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Isometric Medieval Pack/Sprites/Towers
+  artifactKey: Guid(796f5d05754b24c4da99c8961d09f903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Medieval Pack/Sprites/Towers using Guid(796f5d05754b24c4da99c8961d09f903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04dff12e8c3c410dd51b596edd17e25e') in 0.019095 seconds 
+  Import took 0.023950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.135769 seconds.
+  path: Assets/Isometric Medieval Pack/Sprites/Towers/Blue towers
+  artifactKey: Guid(ebafe418a5c027946b575dbe78af81a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Medieval Pack/Sprites/Towers/Blue towers using Guid(ebafe418a5c027946b575dbe78af81a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfee620874d7da767b0d2fd383111484') in 0.013256 seconds 
+  Import took 0.018126 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040719 seconds.
+  path: Assets/Isometric Medieval Pack/Sprites/Towers/Blue towers/castle_tower_blue(1).png
+  artifactKey: Guid(b2a5db7b8a261074697bcab223994745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Medieval Pack/Sprites/Towers/Blue towers/castle_tower_blue(1).png using Guid(b2a5db7b8a261074697bcab223994745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31ce857d37e4752a9cb30e77b8a52adb') in 0.206801 seconds 
+  Import took 0.211452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Isometric Medieval Pack/Sprites/Towers/Blue towers/castle_tower_blue(5).png
+  artifactKey: Guid(99f31672acac1784ab7a9679ee173b43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Medieval Pack/Sprites/Towers/Blue towers/castle_tower_blue(5).png using Guid(99f31672acac1784ab7a9679ee173b43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d14bc4efc1a5929ddb9a3c2e8180563') in 0.026686 seconds 
+  Import took 0.030728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Isometric Medieval Pack/Sprites/Towers/Blue towers/castle_tower_blue(7).png
+  artifactKey: Guid(ada1f5c773e153a45a36d6372b6a0df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Medieval Pack/Sprites/Towers/Blue towers/castle_tower_blue(7).png using Guid(ada1f5c773e153a45a36d6372b6a0df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e1e3833a4ff41785945a1b9906dc824') in 0.029109 seconds 
+  Import took 0.033639 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/Isometric Medieval Pack/Sprites/Towers/Blue towers/castle_tower_blue(8).png
+  artifactKey: Guid(4733cf1ec6410564e8b0373a428b488c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Medieval Pack/Sprites/Towers/Blue towers/castle_tower_blue(8).png using Guid(4733cf1ec6410564e8b0373a428b488c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99a6686cd8b7cb3c7a1fee03601342db') in 0.026929 seconds 
+  Import took 0.033438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/Isometric Medieval Pack/Sprites/Towers/Blue towers/castle_tower_blue(2).png
+  artifactKey: Guid(df7869db03d42b44fb6bd1adaa53ef4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Medieval Pack/Sprites/Towers/Blue towers/castle_tower_blue(2).png using Guid(df7869db03d42b44fb6bd1adaa53ef4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca1c6f797ed9d32c58706f45f2812720') in 0.028120 seconds 
+  Import took 0.036827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000428 seconds.
+  path: Assets/Isometric Medieval Pack/Sprites/Towers/Blue towers/castle_tower_blue(9).png
+  artifactKey: Guid(2a9e19cb89a2aa444aca3a7031de6bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Medieval Pack/Sprites/Towers/Blue towers/castle_tower_blue(9).png using Guid(2a9e19cb89a2aa444aca3a7031de6bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98eb5af64bc2b0823be1a818326df6c7') in 0.023266 seconds 
+  Import took 0.028979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Isometric Medieval Pack/Sprites/Towers/Blue towers/castle_tower_blue(3).png
+  artifactKey: Guid(7da0717147d4a004b98813f62bddab0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Medieval Pack/Sprites/Towers/Blue towers/castle_tower_blue(3).png using Guid(7da0717147d4a004b98813f62bddab0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '920bdb1c192d46bf3a3043af95b084be') in 0.024008 seconds 
+  Import took 0.030431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Isometric Medieval Pack/Sprites/Towers/Blue towers/castle_tower_blue(4).png
+  artifactKey: Guid(e25bcc03f402f9e458e90e0ccd878b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Medieval Pack/Sprites/Towers/Blue towers/castle_tower_blue(4).png using Guid(e25bcc03f402f9e458e90e0ccd878b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8207186d7d156d8f0fd7a7ecbf8f2f0b') in 0.024536 seconds 
+  Import took 0.029604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Isometric Medieval Pack/Sprites/Towers/Blue towers/castle_tower_blue(6).png
+  artifactKey: Guid(f6a4c4630e0105942925845ba4189a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Medieval Pack/Sprites/Towers/Blue towers/castle_tower_blue(6).png using Guid(f6a4c4630e0105942925845ba4189a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '051a9ae16c7c68a8a9878daf6cb21454') in 0.024579 seconds 
+  Import took 0.031068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.974512 seconds.
+  path: Assets/Isometric Medieval Pack/Sprites/Towers/Green towers
+  artifactKey: Guid(da1c194059739cc478215f243abbfc10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Medieval Pack/Sprites/Towers/Green towers using Guid(da1c194059739cc478215f243abbfc10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b2a6ac4bb953c6c45577256bcf7b4d0') in 0.015927 seconds 
+  Import took 0.020636 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.055462 seconds.
+  path: Assets/Isometric Medieval Pack/Sprites/Towers/Green towers/castle_tower_green(1).png
+  artifactKey: Guid(bce467e332e761547afba29263d06bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Medieval Pack/Sprites/Towers/Green towers/castle_tower_green(1).png using Guid(bce467e332e761547afba29263d06bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db1d22f3807639b53d5106daf6a0a09c') in 0.022465 seconds 
+  Import took 0.027280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Isometric Medieval Pack/Sprites/Towers/Green towers/castle_tower_green(9).png
+  artifactKey: Guid(523fa1070b5588d48bdd2c632d8adb10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Medieval Pack/Sprites/Towers/Green towers/castle_tower_green(9).png using Guid(523fa1070b5588d48bdd2c632d8adb10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12f858a17c770a86203ea2ac1f90ab13') in 0.028447 seconds 
+  Import took 0.031973 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Isometric Medieval Pack/Sprites/Towers/Green towers/castle_tower_green(6).png
+  artifactKey: Guid(788fcbf9f44dcb8438c0b53c08f87451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Medieval Pack/Sprites/Towers/Green towers/castle_tower_green(6).png using Guid(788fcbf9f44dcb8438c0b53c08f87451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ed172acdcbde8a7d3666bed5b743db7') in 0.029240 seconds 
+  Import took 0.034007 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000533 seconds.
+  path: Assets/Isometric Medieval Pack/Sprites/Towers/Green towers/castle_tower_green(3).png
+  artifactKey: Guid(e9e6cd0e5f8012b44b01f69fb6c599cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Medieval Pack/Sprites/Towers/Green towers/castle_tower_green(3).png using Guid(e9e6cd0e5f8012b44b01f69fb6c599cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '740bda356fe089fccfd86f68eb22ad07') in 0.028804 seconds 
+  Import took 0.033816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/Isometric Medieval Pack/Sprites/Towers/Green towers/castle_tower_green(5).png
+  artifactKey: Guid(f790a6a970477c244b6d19f3fb716d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Medieval Pack/Sprites/Towers/Green towers/castle_tower_green(5).png using Guid(f790a6a970477c244b6d19f3fb716d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d047ec3aeb4699e3213c60a3d451fa4') in 0.029620 seconds 
+  Import took 0.033972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000538 seconds.
+  path: Assets/Isometric Medieval Pack/Sprites/Towers/Green towers/castle_tower_green(7).png
+  artifactKey: Guid(ca597ac44a6c9f54199e99ba8da3b3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Medieval Pack/Sprites/Towers/Green towers/castle_tower_green(7).png using Guid(ca597ac44a6c9f54199e99ba8da3b3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6146b8fdfdf56ea452a3b6a2ddeb9994') in 0.026383 seconds 
+  Import took 0.032402 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/Isometric Medieval Pack/Sprites/Towers/Green towers/castle_tower_green(8).png
+  artifactKey: Guid(dd0922e2b7d0f3f4da8b19b413428a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Medieval Pack/Sprites/Towers/Green towers/castle_tower_green(8).png using Guid(dd0922e2b7d0f3f4da8b19b413428a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21cf070949a2841712df79988b04d19b') in 0.029956 seconds 
+  Import took 0.035244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Isometric Medieval Pack/Sprites/Towers/Green towers/castle_tower_green(4).png
+  artifactKey: Guid(3db859330ac34f54db3c6aa737851a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Medieval Pack/Sprites/Towers/Green towers/castle_tower_green(4).png using Guid(3db859330ac34f54db3c6aa737851a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a82ef015adeb95d45199ae1e48de312') in 0.027031 seconds 
+  Import took 0.031675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Isometric Medieval Pack/Sprites/Towers/Green towers/castle_tower_green(2).png
+  artifactKey: Guid(0c498215d41509e47976f84246cb3dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Medieval Pack/Sprites/Towers/Green towers/castle_tower_green(2).png using Guid(0c498215d41509e47976f84246cb3dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8236949bfd2a381729b63ec9279991e9') in 0.024647 seconds 
+  Import took 0.029567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.118278 seconds.
+  path: Assets/Isometric Medieval Pack/Sprites/Roads
+  artifactKey: Guid(ca709004b54f1ee45b962b64aba137c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Medieval Pack/Sprites/Roads using Guid(ca709004b54f1ee45b962b64aba137c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc5207d86d5a122b2a8c1592fcfab336') in 0.009265 seconds 
+  Import took 0.014703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.540938 seconds.
+  path: Assets/Isometric Medieval Pack/Sprites/Roads/Spring
+  artifactKey: Guid(8190a8201b81b4c47bf6b94cd977a67c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Medieval Pack/Sprites/Roads/Spring using Guid(8190a8201b81b4c47bf6b94cd977a67c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbc96b387199dacab158efdfb69c0777') in 0.014366 seconds 
+  Import took 0.020058 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.059340 seconds.
+  path: Assets/Isometric Medieval Pack/Sprites/Roads/Spring/road(1).asset
+  artifactKey: Guid(f0fb93a4039bea6458c05af4a4395cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Medieval Pack/Sprites/Roads/Spring/road(1).asset using Guid(f0fb93a4039bea6458c05af4a4395cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4e066b49540f32f9777385d03d279a2') in 0.045712 seconds 
+  Import took 0.050064 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Isometric Medieval Pack/Sprites/Roads/Spring/road(11).png
+  artifactKey: Guid(1bce50e2fc3a2434da9d37770866827e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Medieval Pack/Sprites/Roads/Spring/road(11).png using Guid(1bce50e2fc3a2434da9d37770866827e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8c1a36ab366ac608604cc1a01199fa8') in 0.024738 seconds 
+  Import took 0.030139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Isometric Medieval Pack/Sprites/Roads/Spring/road(13).asset
+  artifactKey: Guid(ff4c031014927904c9c8e8a0c8aaeaf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Medieval Pack/Sprites/Roads/Spring/road(13).asset using Guid(ff4c031014927904c9c8e8a0c8aaeaf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e1b93278b0ce9be569e0b85bb7d1479') in 0.026134 seconds 
+  Import took 0.031260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000798 seconds.
+  path: Assets/Isometric Medieval Pack/Sprites/Roads/Spring/road(5).asset
+  artifactKey: Guid(dbdc08fc6fc5e6c4f90ea96c1afaa20a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Medieval Pack/Sprites/Roads/Spring/road(5).asset using Guid(dbdc08fc6fc5e6c4f90ea96c1afaa20a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3fd7f25fba202b56ccfd691f21478f7') in 0.028915 seconds 
+  Import took 0.034527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Isometric Medieval Pack/Sprites/Roads/Spring/road(4).png
+  artifactKey: Guid(0eb2946548fc4954fa17743b2acfd286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Medieval Pack/Sprites/Roads/Spring/road(4).png using Guid(0eb2946548fc4954fa17743b2acfd286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f83cc2b545009b9d58bf4815278f6bfc') in 0.033084 seconds 
+  Import took 0.041216 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Isometric Medieval Pack/Sprites/Roads/Spring/road(4).asset
+  artifactKey: Guid(3a5a63573354d544d8c9467981b164f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Medieval Pack/Sprites/Roads/Spring/road(4).asset using Guid(3a5a63573354d544d8c9467981b164f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea37d288f11eb57a701f713c2f427088') in 0.020628 seconds 
+  Import took 0.027447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001796 seconds.
+  path: Assets/Isometric Medieval Pack/Sprites/Roads/Spring/road(7).asset
+  artifactKey: Guid(c1f23d368c4d2094088e91cc268f8c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Medieval Pack/Sprites/Roads/Spring/road(7).asset using Guid(c1f23d368c4d2094088e91cc268f8c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1b88f5a93638be0dff54b074ba374c4') in 0.024252 seconds 
+  Import took 0.029533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000956 seconds.
+  path: Assets/Isometric Medieval Pack/Sprites/Roads/Spring/road(12).png
+  artifactKey: Guid(8d36fa7f5ed5bdd4b96e22199df40c3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Medieval Pack/Sprites/Roads/Spring/road(12).png using Guid(8d36fa7f5ed5bdd4b96e22199df40c3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94ce3ab76ddd119f5d5cd60cc73e7b4d') in 0.020635 seconds 
+  Import took 0.027639 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000395 seconds.
+  path: Assets/Isometric Medieval Pack/Sprites/Roads/Spring/road(8).png
+  artifactKey: Guid(cc859d50c44e78c43947e42ab7d980ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Medieval Pack/Sprites/Roads/Spring/road(8).png using Guid(cc859d50c44e78c43947e42ab7d980ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0ba2aef734bee28b28d74d8e59cf323') in 0.023403 seconds 
+  Import took 0.030188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Isometric Medieval Pack/Sprites/Roads/Spring/road(10).asset
+  artifactKey: Guid(abbb05c361f89284b925254503d6a108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Medieval Pack/Sprites/Roads/Spring/road(10).asset using Guid(abbb05c361f89284b925254503d6a108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba2f0bc27c69a95f0f962707bf9e3d72') in 0.024609 seconds 
+  Import took 0.029529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Isometric Medieval Pack/Sprites/Roads/Spring/road(1).png
+  artifactKey: Guid(c3168a5b556737f4eb01a646b8588fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Medieval Pack/Sprites/Roads/Spring/road(1).png using Guid(c3168a5b556737f4eb01a646b8588fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44abfdb6fca28ee0c684f30484d0e98f') in 0.020137 seconds 
+  Import took 0.026644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Isometric Medieval Pack/Sprites/Roads/Spring/road(7).png
+  artifactKey: Guid(28db88ab556d4744c840efa67fa3527f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Medieval Pack/Sprites/Roads/Spring/road(7).png using Guid(28db88ab556d4744c840efa67fa3527f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc4345b4f19b5b2e33c44f502dc603d0') in 0.019389 seconds 
+  Import took 0.026861 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Isometric Medieval Pack/Sprites/Roads/Spring/road(15).png
+  artifactKey: Guid(b83c1fe9c559056428f3dbb697e9d503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Medieval Pack/Sprites/Roads/Spring/road(15).png using Guid(b83c1fe9c559056428f3dbb697e9d503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55769942722b6ad2eadc98ca0978a949') in 0.024147 seconds 
+  Import took 0.029181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Isometric Medieval Pack/Sprites/Roads/Spring/road(6).png
+  artifactKey: Guid(69b31a3ab30316546a5b00b5a3dff832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Medieval Pack/Sprites/Roads/Spring/road(6).png using Guid(69b31a3ab30316546a5b00b5a3dff832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d5ee0ead42b5ca0a0f5b4281e433de0') in 0.020522 seconds 
+  Import took 0.025576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Isometric Medieval Pack/Sprites/Roads/Spring/road(5).png
+  artifactKey: Guid(58494126e559cbe4587dbd5602ced622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Medieval Pack/Sprites/Roads/Spring/road(5).png using Guid(58494126e559cbe4587dbd5602ced622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '453ceabf48190601d1e5a3b7948a5b28') in 0.018584 seconds 
+  Import took 0.025945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Isometric Medieval Pack/Sprites/Roads/Spring/road(9).png
+  artifactKey: Guid(46341555591f3fa44862bb21f5482f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Medieval Pack/Sprites/Roads/Spring/road(9).png using Guid(46341555591f3fa44862bb21f5482f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbe68dbef6dbe8d558d659febed32574') in 0.021077 seconds 
+  Import took 0.027768 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Isometric Medieval Pack/Sprites/Roads/Spring/road(2).asset
+  artifactKey: Guid(f45847db563b0934f9529ded0a8dd648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Medieval Pack/Sprites/Roads/Spring/road(2).asset using Guid(f45847db563b0934f9529ded0a8dd648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd77931e8e76693ab61653791ce6638bf') in 0.022839 seconds 
+  Import took 0.029325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Isometric Medieval Pack/Sprites/Roads/Spring/road(12).asset
+  artifactKey: Guid(680ce3ecf07f14e409d1416df4c88086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Medieval Pack/Sprites/Roads/Spring/road(12).asset using Guid(680ce3ecf07f14e409d1416df4c88086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceeb020e14561d7436f382f2c51f1d27') in 0.022003 seconds 
+  Import took 0.028873 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Isometric Medieval Pack/Sprites/Roads/Spring/road(3).asset
+  artifactKey: Guid(30174fe5a12fc8546921c8a65fd42d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Medieval Pack/Sprites/Roads/Spring/road(3).asset using Guid(30174fe5a12fc8546921c8a65fd42d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8edd862672fb9cb1fb72c032c7ecb910') in 0.024749 seconds 
+  Import took 0.030085 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000602 seconds.
+  path: Assets/Isometric Medieval Pack/Sprites/Roads/Spring/road(8).asset
+  artifactKey: Guid(a6b66622415e4a24aacf9a873aed017f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Medieval Pack/Sprites/Roads/Spring/road(8).asset using Guid(a6b66622415e4a24aacf9a873aed017f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83ff86e3898bfffceea8a8c9a680d9df') in 0.022764 seconds 
+  Import took 0.028095 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Isometric Medieval Pack/Sprites/Roads/Spring/road(3).png
+  artifactKey: Guid(483eb024f1e86e7448e7af2193918365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Medieval Pack/Sprites/Roads/Spring/road(3).png using Guid(483eb024f1e86e7448e7af2193918365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a7264d58e7a761eed789580c9187f99') in 0.019045 seconds 
+  Import took 0.023762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Isometric Medieval Pack/Sprites/Roads/Spring/road(15).asset
+  artifactKey: Guid(62f36120996bb8a4e91704df64cc8a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Medieval Pack/Sprites/Roads/Spring/road(15).asset using Guid(62f36120996bb8a4e91704df64cc8a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11c00c1eaee1de29ccc19f7b977fa9a0') in 0.015007 seconds 
+  Import took 0.020106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000399 seconds.
+  path: Assets/Isometric Medieval Pack/Sprites/Roads/Spring/road(13).png
+  artifactKey: Guid(8f4d91eff4626b04e8fbedb74980539c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Medieval Pack/Sprites/Roads/Spring/road(13).png using Guid(8f4d91eff4626b04e8fbedb74980539c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c74e171757670c14b77f476053db27c3') in 0.018395 seconds 
+  Import took 0.026088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Isometric Medieval Pack/Sprites/Roads/Spring/road(6).asset
+  artifactKey: Guid(f8e640d286171b9438a1bac1ece2c704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Medieval Pack/Sprites/Roads/Spring/road(6).asset using Guid(f8e640d286171b9438a1bac1ece2c704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0a4efdb70be70ed2e6dc26d86a8f11b') in 0.021136 seconds 
+  Import took 0.027636 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Isometric Medieval Pack/Sprites/Roads/Spring/road(10).png
+  artifactKey: Guid(b6bf7bc336529394b9a8c239d75c5da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Medieval Pack/Sprites/Roads/Spring/road(10).png using Guid(b6bf7bc336529394b9a8c239d75c5da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7352f003a539a772700d97dc418682da') in 0.018257 seconds 
+  Import took 0.023262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Isometric Medieval Pack/Sprites/Roads/Spring/road(14).asset
+  artifactKey: Guid(10b27ca0463b58743ad1cd6de6390491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Medieval Pack/Sprites/Roads/Spring/road(14).asset using Guid(10b27ca0463b58743ad1cd6de6390491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b64e7c6090b59c365bf2722694659cb4') in 0.025007 seconds 
+  Import took 0.030191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Isometric Medieval Pack/Sprites/Roads/Spring/road(9).asset
+  artifactKey: Guid(bad6107297f53424a8e09bb898c7d8a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Medieval Pack/Sprites/Roads/Spring/road(9).asset using Guid(bad6107297f53424a8e09bb898c7d8a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfb5a3d3ccb53fb916dc03a38095f651') in 0.020090 seconds 
+  Import took 0.027300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Isometric Medieval Pack/Sprites/Roads/Spring/road(11).asset
+  artifactKey: Guid(957406e74aabcaf41b8005da6e939310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Medieval Pack/Sprites/Roads/Spring/road(11).asset using Guid(957406e74aabcaf41b8005da6e939310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8b19384b21ae9b7d5c6a0f1e3214eea') in 0.021117 seconds 
+  Import took 0.026929 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Isometric Medieval Pack/Sprites/Roads/Spring/road(14).png
+  artifactKey: Guid(8b6b6aabdbffa8247a63ecd169970deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Medieval Pack/Sprites/Roads/Spring/road(14).png using Guid(8b6b6aabdbffa8247a63ecd169970deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39e94041efcbfa8daa60ddb3140dbb9f') in 0.019443 seconds 
+  Import took 0.023934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000393 seconds.
+  path: Assets/Isometric Medieval Pack/Sprites/Roads/Spring/road(2).png
+  artifactKey: Guid(d21efc126fa12104f8304b1179a64177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Isometric Medieval Pack/Sprites/Roads/Spring/road(2).png using Guid(d21efc126fa12104f8304b1179a64177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ef40e8d0c304eb77edd8196be0f0f64') in 0.019502 seconds 
+  Import took 0.024107 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
